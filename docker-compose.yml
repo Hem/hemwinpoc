@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  hemwinpoc2:
+    image: hemwinpoc2
+    build:
+      context: ./HemWinPoc2
+      dockerfile: Dockerfile
